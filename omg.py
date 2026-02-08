@@ -1,0 +1,1 @@
+words=['KITAGAWA','GOKU','RENGOKU','GOJO','TANJIRO','ZORO']
