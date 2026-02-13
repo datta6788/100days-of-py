@@ -192,3 +192,27 @@
             
 #     print(enc_text)
 # encrypt(original,shift)
+
+
+# def encrypt(original,shift):
+#     enc_text=''
+#     for letter in original:
+#         if alphabet.index(letter)+shift<=25:
+#             enc_text+=alphabet[alphabet.index(letter)+shift]
+#         else:
+#             loop=alphabet.index(letter)+shift
+#             while not loop<=25:
+#                 loop=loop-len(alphabet)
+#             enc_text+=alphabet[loop]
+#     print(enc_text)
+# encrypt(original,shift)
+
+# def decrypt(encrypted=original,de_shift=shift):
+#     dec_text=''
+#     for letters in encrypted:
+#         dec_shift=alphabet.index(letters)-shift
+#         dec_shift%=len(alphabet)
+#         dec_text+=alphabet[dec_shift]
+#     print(dec_text)
+
+# decrypt(encrypted=original,de_shift=shift)
