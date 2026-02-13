@@ -148,7 +148,7 @@
 #     guess+=
 # print(guess)
 # print(D[random.randint(0,2)])
-d=["datta","sabrina","meganfox","kuber","keerthi","vardhan","krish","meganfox"]
+# d=["datta","sabrina","meganfox","kuber","keerthi","vardhan","krish","meganfox"]
 # e=random.choice(d)
 # guess=[]
 # final=""
@@ -163,5 +163,32 @@ d=["datta","sabrina","meganfox","kuber","keerthi","vardhan","krish","meganfox"]
 
 # print(d.index("meganfox"))
 
-    
+# alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']    
+# # print(alphabet.index('cd'))
+# # d=input(int("give ra give:"))
+# number=int('0')
+# d=int(input('give:'))
+# number+=d
+# e=int(input('give:'))
+# number+=e
+# print(number)
 
+
+# print(len(alphabet))
+#######################################################
+# alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+# # encordec=int(input("what do you wanna do? encrypt/decrypt? to encrypt enter 1 to decrypt enter 0:"))
+# original=input("enter your message:")
+# shift=int(input("enter the shift number:"))
+# def encrypt(original,shift):
+#     enc_text=''
+#     for letter in original:
+#         shift_pos=alphabet.index(letter)+shift
+#         if shift_pos<=25:
+#             enc_text+=alphabet[shift_pos]
+#         else:
+#             shift_pos%=len(alphabet)
+#             enc_text+=alphabet[shift_pos]
+            
+#     print(enc_text)
+# encrypt(original,shift)
