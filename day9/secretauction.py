@@ -1,11 +1,9 @@
 auction={}
 print("WELCOME TO THE SECRET AUCTION")
 def secret_auction():
-    # auction={}
     name=input("what's your name? ").upper()
     bid_amount=int(input("what's your bid? ₹"))
     auction[name]=bid_amount
-    # print(auction)
 bidding=True
 while bidding:
     secret_auction()
