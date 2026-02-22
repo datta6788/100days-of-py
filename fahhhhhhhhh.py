@@ -1,9 +1,5 @@
-alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-d=input("enter ra enter:")
-for letter in d:
-    text=""
-    if letter in alphabet:
-        text+=letter
-    else:
-        text+="&"
-print(text)
+my_dict = {"Doe": "Jane", "Smith": "John", "Jones": "Jane"}
+search_value = "Jane"
+
+keys_with_value = [key for key, value in my_dict.items() if value == search_value]
+print(keys_with_value)
