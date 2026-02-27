@@ -1,5 +1,18 @@
-my_dict = {"Doe": "Jane", "Smith": "John", "Jones": "Jane"}
-search_value = "Jane"
-
-keys_with_value = [key for key, value in my_dict.items() if value == search_value]
-print(keys_with_value)
+n=list(input("n:"))
+vowels="AEIOUaeiou"
+i=0
+j=len(n)-1
+while i<j:
+    if n[i] in vowels and n[j] in vowels:
+        n[i],n[j]=n[j],n[i]
+        result="".join(n)
+        print(n)
+        break 
+    elif n[i] not in vowels:
+        i+=1
+    elif n[j] not in vowels:
+        j-=1
+    else:
+        i+=1
+        j-=1
+   
