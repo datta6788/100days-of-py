@@ -66,7 +66,7 @@ def bj():
                             game=False
 blackjack=True
 while blackjack:
-    cards=[11,10]
+    cards=[11,2,3,4,5,6,7,8,9,10,10,10,10]
     wanna_play=input("Do you want to play a game of Blackjack? Type 'y' or 'n': ").lower()
     if wanna_play=='y':
         bj()

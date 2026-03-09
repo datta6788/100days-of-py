@@ -10,7 +10,6 @@ def dif_type(difficulty):
 number=random.randint(1,100)
 def user():
     print(number)
-    # print(lives)
     game=True
     lives=dif_type(difficulty)
     while game:
@@ -28,6 +27,12 @@ def user():
                 print(f'you have {lives} chances left')
         else:
             lives-=1
+            if lives==0:
+                print("You ran out of chances to guess, you lost the game")
+                game=False
+            else:
+                print("Too high, guess again!")
+                print(f'you have {lives} chances left')
             if lives==0:
                 print("You ran out of chances to guess, you lost the game")
                 game=False

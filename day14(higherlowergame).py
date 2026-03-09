@@ -1,3 +1,4 @@
+#JUST A LIL CATCH IN THE PROGRAM
 from day14data import data
 import random
 
@@ -18,6 +19,7 @@ def game():
         print(f"Current score!: {score}")
         celeb(a,b)
         fam=input("Who's got more followers on insta? A or B? ").upper()
+        print('\n'*20)
         if fam=='A':
             if a['follower_count']>b['follower_count']:
                 score+=1
