@@ -245,9 +245,53 @@
 # keys_with_value = [key for key, value in my_dict.items() if value == search_value]
 # print(keys_with_value)
 
-d=[20,30,40]
-print(max(d.index()))
-# print(d.index(i))
+# d=[20,30,40]
+# print(max(d.index()))
+# # print(d.index(i))
+
+
+# import turtle
+# oogway=turtle.Turtle()
+# oogway2=turtle.Turtle()
+# oogway2.teleport(100,100)
+# turtle.listen()
+# def rk():
+#     oogway.setheading(0)
+# def lk():
+#     oogway.setheading(180)
+# def uk():
+#     oogway.setheading(90)
+# def dk():
+#     oogway.setheading(270)
+
+# turtle.onkey(rk,"Right")
+# turtle.onkey(lk,"Left")
+
+# print(oogway.distance(oogway2))
+
+
+# oogway2=turtle.Turtle("square")
+# oogway.penup(),oogway2.penup()
+# screen=turtle.Screen()
+# oogway.goto(100,100)
+# oogway2.goto(oogway.position())
+# screen.exitonclick()
+
+# print(oogway.distance(0,0))
+
+# corr=[(0,0),(100,100)]
+# for i in corr:
+#         oogway=turtle.Turtle("square")
+#         oogway.goto(i)
 
 
 
+# screen=turtle.Screen()
+# screen.exitonclick()
+
+d=int(input("enter ra:"))
+l=[0,3,6,9,12]
+if d in l:
+    print("EUEUEUEUUE")
+else:
+    print("THUTHUTHU")

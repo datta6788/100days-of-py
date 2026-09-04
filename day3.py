@@ -1,8 +1,8 @@
 #randomization#
 
 import random
-# D= random.randint(69,6969)
-# print(D)
+D= random.randint(69,70)
+print(D)
 
 # import random
 # d=random.random()
@@ -16,7 +16,7 @@ import random
 # else:
 #     print("TAILS")
 
-a= ["datta","kuber","vinay","deekshith","balaji"]
-b= ["hello","wprld]","gfg"]
-c=[a,b]
-print(c[1][2])
+# a= ["datta","kuber","vinay","deekshith","balaji"]
+# b= ["hello","wprld]","gfg"]
+# c=[a,b]
+# print(c[1][2])
